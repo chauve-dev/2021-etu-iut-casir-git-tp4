@@ -85,13 +85,13 @@ Chaque personne de l'équipe va modifier le lien pointé par une icone, faire un
 
 - Q6: Juste avant de commiter, quelle est la commande pour visualiser le contenu de son prochain commit ?
 
-> Votre réponse
+> git status
 
 Avant de passer à la suite, chaque personne doit avoir les liens de tous les autres présents sur son poste en local.
 
 Q7: Pourquoi la première personne peut partager ses changements sans problème et les autres sont obligées de faire une opération supplémentaire ?
 
-> Votre réponse
+> Parce que les autres doivent recuperer les commit courant avant de pouvoir pousser les leurs
 
 ## 3. Ajout de pages
 
