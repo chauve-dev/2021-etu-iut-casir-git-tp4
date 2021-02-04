@@ -43,7 +43,7 @@ Chaque personne du groupe doit compléter son document **ecommerce_prenom-nom.md
 
 Q2: Github propose un clone ou download ( bouton vert ), quelle est la différence fondamentale entre les deux ?
 
-> Votre réponse
+> Le bouton clone permet de cloner le projet via l'utilitaire GIT et le bouton download permet de télécharger une version zip du projet
 
 ### 1.2 Découverte du repository crée
 
@@ -51,17 +51,17 @@ Quand vous récupérez un projet, il est toujours intéressant d'analyser l'hist
 
 - Q3: Quelle est la commande git permettant de visualiser l'historique du projet ?
 
-> Votre réponse
+> git log
 
 _N'hésitez pas à regarder la documentation de cette commande pour voir les nombreuses options disponibles_
 
 - Q4: Chaque commit a un numéro unique, seriez vous retrouver celui du cinquième commit de ce repository ?
 
-> Votre réponse
+> 5651629bb4da4aa2298339d7daa58247d25c4bfb
 
 - Q5: D'ailleurs comment savoir, quel est le contenu de ce cinquième commit, c'est à dire quelles ont été les modifications apportées au projet au 3ième et 4ième commit ?
 
-> Votre réponse
+> git diff 5651629bb4da4aa2298339d7daa58247d25c4bfb 5bf2b0e7ce93189056af052a731a1207b36254fa (la vérité du développeur :)
 
 ### 1.3 Premier commit à faire en groupe, partage et récupération.
 
