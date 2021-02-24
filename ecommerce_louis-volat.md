@@ -55,3 +55,10 @@ le fichier modifier par le script et le script.js. Pour le savoir j'ai utiliser 
 
 __**Q12: Ecrasez les modifications faites sur ce fichier en utilisant git**__
 pour revenir au status précédent du fichier j'ai utiliser la commande `git checkout -- src/js/script.js` qui permmet de faire revenir un fichier spécifique à son précédent state
+
+__**Q13: Faire un git status, qu'observez vous ?*__
+Dans le git status il y avait une immage non ajouter.
+
+__**Q14: Faire un git status, qu'observez vous ?*__
+
+__**Q14: NB: vous pouvez faire ça uniquement sur des commits non partagés. Pourquoi ?**__
