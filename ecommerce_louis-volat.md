@@ -59,6 +59,18 @@ pour revenir au status précédent du fichier j'ai utiliser la commande `git che
 __**Q13: Faire un git status, qu'observez vous ?*__
 Dans le git status il y avait une immage non ajouter.
 
-__**Q14: Faire un git status, qu'observez vous ?*__
-
 __**Q14: NB: vous pouvez faire ça uniquement sur des commits non partagés. Pourquoi ?**__
+car on ne peut pas faire des ammend car si des personne on utilise une ancinne version du commit il vas y avoir des confli sur le nouveau commit; 
+
+__**Q15: Erreur script:__**
+    
+**Visualiser votre historique, que s'est t-il passé ?**
+Il y a eu 5 nouveau commit ajoutatn
+    
+**Comment revenir en arrière et donc ignorer les 5 derniers commits ?**
+
+    Votre réponse
+    
+    NB: vous pouvez faire ça uniquement sur des commits non partagés. Pourquoi ?
+    
+    Votre réponse
