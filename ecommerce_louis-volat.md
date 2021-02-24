@@ -29,5 +29,24 @@ __**Q5: D'ailleurs comment savoir, quel est le contenu de ce cinquième commit, 
 La commande pour connaitre les modification entre le 3ème et le 5ème commit et la suivante : `git diff 5651629bb4da4aa2298339d7daa58247d25c4bfb 5bf2b0e7ce93189056af052a731a1207b36254fa`
 
 
+__**Q6: Juste avant de commiter, quelle est la commande pour visualiser le contenu de son prochain commit ?**__
+La commande pour visualisée le statut et `git status`
 
- 
+__**Q7: Pourquoi la première personne peut partager ses changements sans problème et les autres sont obligées de faire une opération supplémentaire ?**__
+
+Les autre devlopper doivent récupérer les changements emis par le premier dans le but de modifier la même base de code ensuite.
+
+__**Q8: Quel est le concept en git qui nous permet de procéder ainsi ?**__
+Le consepte et celui des commit atomique. Pour ce faire avant de faie le commit il faut ajouter cellement les fichier concerner par le commit avec  `git add nomfichier`
+
+__**Q9: Quelles sont les étapes pour résoudre des conflits sous git ?**__
+* Etape 1 : Faire un `git push` et avoir un conflie indiquer
+* Etape 2 : Faire un `git pull` pour récupérer le code distant
+* Etape 3 : Modifier le ou les fichier responsable du conflit
+* Etape 4 : Ajouter les fichier une fois modifier avec un `git add <lesfichiers>`
+* Etape 5 : Commit les modification apporter avec un `git commit -m"Edit : Mes modif"`
+* Etape 6 : Faire un `git push` pour résoudre définitivement le conflit
+
+__**Q10: Comment vous vous assurez que git n'est plus en état de conflit ?**__
+La commande `git status` indiquera si le fichier et encore en état de conflit
+
