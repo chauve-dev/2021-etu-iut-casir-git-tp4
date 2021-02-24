@@ -59,6 +59,20 @@ pour revenir au status précédent du fichier j'ai utiliser la commande `git che
 __**Q13: Faire un git status, qu'observez vous ?*__
 Dans le git status il y avait une immage non ajouter.
 
-__**Q14: Faire un git status, qu'observez vous ?*__
-
 __**Q14: NB: vous pouvez faire ça uniquement sur des commits non partagés. Pourquoi ?**__
+car on ne peut pas faire des ammend car si des personne on utilise une ancinne version du commit il vas y avoir des confli sur le nouveau commit; 
+
+__**Q15: Erreur script:__**
+    
+**Visualiser votre historique, que s'est t-il passé ?**
+Il y a eu 5 nouveau commit ajoutatn
+    
+**Comment revenir en arrière et donc ignorer les 5 derniers commits ?**
+il faut utiliser la commande `git revert 13644c973b62e37ae0f7b1aa7361f3355a3e9903` qui vas annuler tous les changement jusqu'à ce momment lagit
+
+__**Q16: Résumé en une phrase l'intérêt des branches :**__
+Les branche permettre de séparer le devloppement d'une application par fonctionalite version stable et de dévloppement. c'est particulièrement utile lorsque plusieur perssone travail sur des fonctionalitée différente.
+
+__**Q17: Sans le savoir vous travaillez déjà avec des branches, quel est le nom de la branche par défaut de git ?**__
+on travail depuis le début sur master
+

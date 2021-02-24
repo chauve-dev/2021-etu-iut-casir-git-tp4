@@ -289,6 +289,6 @@ L'équipe Sales n'est pas d'accord avec ces modifications, elle veut intégrer l
 
 * Merger cette branche dans votre branche marketing.
 
-*Si il y a des conflits, gardez les noms du produits du marketing mais intégrez la description du PC de l'équipe sales.*
+* Si il y a des conflits, gardez les noms du produits du marketing mais intégrez la description du PC de l'équipe sales.*
 
 * Partager les changements de votre branche sur github. 
