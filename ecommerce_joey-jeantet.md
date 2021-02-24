@@ -159,14 +159,14 @@ Si vous regardez à la racine du répertoire il y a un dossiers `bash-scripts` a
 
 * Q11: Quel fichier a été modifié par le script ?
 
-> Votre réponse et la commande git permettant de le savoir.
+> src/js/script.js, la commande est git status
 
 Si vous essayez de voir votre site, il ne fonctionne plus ( ou mal pendant un certain temps ), le code introduit une boucle infini faisant planter votre navigateur ( oups ). 
 Ça arrive de faire des erreurs, on va utiliser git pour revenir en arrière :
 
 * Q12: Ecrasez les modifications faites sur ce fichier en utilisant git
 
-> Préciser la commande permettant d'effacer les modifications
+> git restore src/js/script.js
 
 ## 5. 😄 Oups 😄 Oups 😄
 
