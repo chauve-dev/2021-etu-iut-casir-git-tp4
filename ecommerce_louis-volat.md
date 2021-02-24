@@ -50,3 +50,8 @@ __**Q9: Quelles sont les étapes pour résoudre des conflits sous git ?**__
 __**Q10: Comment vous vous assurez que git n'est plus en état de conflit ?**__
 La commande `git status` indiquera si le fichier et encore en état de conflit
 
+__**Q11: Quel fichier a été modifié par le script ?**__
+le fichier modifier par le script et le script.js. Pour le savoir j'ai utiliser la commande `git status`
+
+__**Q12: Ecrasez les modifications faites sur ce fichier en utilisant git**__
+pour revenir au status précédent du fichier j'ai utiliser la commande `git checkout -- src/js/script.js` qui permmet de faire revenir un fichier spécifique à son précédent state
