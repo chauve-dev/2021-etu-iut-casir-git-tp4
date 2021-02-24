@@ -113,7 +113,7 @@ Faites une page simple, mais contenant au minimum :
 
 * Q8: Quel est le concept en git qui nous permet de procéder ainsi ?
 
-> Votre réponse  
+> C'est le commit atomique
 
 Avant de passer à la suite, chaque personne doit avoir les pages de tous les autres présentes sur son poste en local.
 
@@ -143,11 +143,11 @@ Avant de passer à la suite, chaque personne doit avoir les commits de toutes le
 
 - Q9: Quelles sont les étapes pour résoudre des conflits sous git ?
 
-> Votre réponse
+> faire un git pull pour afficher le conflit, selectionnez la version qu'on veux conserver l'ajouter la commit et la pousser
 
 - Q10: Comment vous vous assurez que git n'est plus en état de conflit ?
 
-> Votre réponse
+> git status
 
 ## 5. 😄 Oups 😄
 
