@@ -178,14 +178,14 @@ Exécuter le script
 
 * Q13: Faire un git status, qu'observez vous ?
 
-> Votre réponse
+> une image a été ajouter au fichier (computer.jpeg)
 
 Il arrive que nous oublions de commiter un fichier, on peut donc revenir sur un commit déjà fait
 
 Modifier le commit précédent en n'oubliant pas de rajouter le fichier oublié
 
  **Q14: NB: vous pouvez faire ça uniquement sur des commits non partagés. Pourquoi ?**
-> Votre réponse
+> Faire un git amend peut poser des problème sur le répo distant si quelqu'un a déjà récuperer les modif pushé
 
 Ressources :
 
@@ -206,13 +206,13 @@ Executer le script `oups-oups-oups.sh` :
 ```
 Q15: Erreur script: 
 * Visualiser votre historique, que s'est t-il passé ?
-> Votre réponse
+> Il y a 5 nouveau commit
 
 * Comment revenir en arrière et donc ignorer les 5 derniers commits ?
-> Votre réponse
+> git revert idcommit
 
 **NB: vous pouvez faire ça uniquement sur des commits non partagés. Pourquoi ?**
-> Votre réponse
+> Parce que on vient déplacer le head et si d'autre personnes on fait des modif sur les commit qui vont être supprimer sa peut causer des soucis
 
 Ressources :
  
