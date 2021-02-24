@@ -68,8 +68,7 @@ __**Q15: Erreur script:__**
 Il y a eu 5 nouveau commit ajoutatn
     
 **Comment revenir en arrière et donc ignorer les 5 derniers commits ?**
-
-    Votre réponse
+il faut utiliser la commande `git revert 13644c973b62e37ae0f7b1aa7361f3355a3e9903` qui vas annuler tous les changement jusqu'à ce momment lagit
     
     NB: vous pouvez faire ça uniquement sur des commits non partagés. Pourquoi ?
     
