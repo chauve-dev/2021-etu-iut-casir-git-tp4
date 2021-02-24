@@ -69,7 +69,10 @@ Il y a eu 5 nouveau commit ajoutatn
     
 **Comment revenir en arrière et donc ignorer les 5 derniers commits ?**
 il faut utiliser la commande `git revert 13644c973b62e37ae0f7b1aa7361f3355a3e9903` qui vas annuler tous les changement jusqu'à ce momment lagit
-    
-    NB: vous pouvez faire ça uniquement sur des commits non partagés. Pourquoi ?
-    
-    Votre réponse
+
+__**Q16: Résumé en une phrase l'intérêt des branches :**__
+Les branche permettre de séparer le devloppement d'une application par fonctionalite version stable et de dévloppement. c'est particulièrement utile lorsque plusieur perssone travail sur des fonctionalitée différente.
+
+__**Q17: Sans le savoir vous travaillez déjà avec des branches, quel est le nom de la branche par défaut de git ?**__
+on travail depuis le début sur master
+
