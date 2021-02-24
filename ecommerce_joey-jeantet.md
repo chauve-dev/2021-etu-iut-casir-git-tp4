@@ -178,14 +178,14 @@ Exécuter le script
 
 * Q13: Faire un git status, qu'observez vous ?
 
-> Votre réponse
+> une image a été ajouter au fichier (computer.jpeg)
 
 Il arrive que nous oublions de commiter un fichier, on peut donc revenir sur un commit déjà fait
 
 Modifier le commit précédent en n'oubliant pas de rajouter le fichier oublié
 
  **Q14: NB: vous pouvez faire ça uniquement sur des commits non partagés. Pourquoi ?**
-> Votre réponse
+> Faire un git amend peut poser des problème sur le répo distant si quelqu'un a déjà récuperer les modif pushé
 
 Ressources :
 
